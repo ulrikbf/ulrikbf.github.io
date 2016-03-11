@@ -39,7 +39,7 @@
 
 
 2. To summary, all you need it a little bit of lov">
-<meta property="og:updated_time" content="2016-03-11T19:22:17.137Z">
+<meta property="og:updated_time" content="2016-03-11T20:30:39.534Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Blogging with Hexo">
 <meta name="twitter:description" content="Table of Contents
@@ -240,7 +240,7 @@
 <div class="outline-text-2" id="text-1">
 <p>
 Since i became interested in EMACS, I&apos;ve read countless blogs and articles about everything from how to configure the most minute detail about EMACS, to how to install and configure large packages.
-I&apos;ve grown quite fond of reading well written blogs, and thought to myself it would be a good exercise and a challenge to write one myself! So without further ado, here it is, my journey with Emacs!
+I&apos;ve grown quite fond of reading well-written blogs, and thought to myself that it would be a good exercise and a challenge to write one myself! So without further ado, here it is, my journey with Emacs!
 </p>
 </div>
 
@@ -249,9 +249,9 @@ I&apos;ve grown quite fond of reading well written blogs, and thought to myself 
 <h3 id="sec-1-1"><span class="section-number-3">1.1</span> My blogging tools</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
-I wandered fare and wide, searching for something that was fast, easy to use and compatible with <code>org-mode</code>. I first looked at static-site generators, like <code>Jekyll</code> and <code>org-page</code>. Org-page seemed to best suite my need, with a simple interface, layout and fully compatible with org-mode.
-Org-page also had the benefit of using git as version control, and separated the <code>html/css/js</code> in one branch while keeping the <code>.org</code> files on master. It sounded really good in theory, but i just could not get it to work in my environment(Windows).
-After doing some more research, i landed with <a href="http:www.hexo.io" target="_blank" rel="external">hexo</a>. 
+I wandered fare and wide, searching for something that was fast, easy to use and compatible with <code>org-mode</code>. I first looked at static-site generators, like <code>Jekyll</code> and <code>org-page</code>. Org-page seemed to best suit my needs, with a simple interface, layout and fully compatible with org-mode.
+Org-page also had the benefit of using git as version control, and separated the <code>html/css/js</code> in one branch while keeping the <code>.org</code> files on master. It sounded really good in theory, but I just could not get it to work in my environment(Windows).
+After doing some more research, I landed with <a href="http:www.hexo.io" target="_blank" rel="external">hexo</a>. 
 </p>
 </div>
 
@@ -259,7 +259,7 @@ After doing some more research, i landed with <a href="http:www.hexo.io" target=
 <h4 id="sec-1-1-1"><span class="section-number-4">1.1.1</span> Hexo</h4>
 <div class="outline-text-4" id="text-1-1-1">
 <p>
-Going from zero to hero, or from a simple file to a fully fledged blog, was so incredibly simple with Hexo, i almost could not believe it! 
+Going from zero to hero, or from a simple file to a fully fledged blog, was so incredibly simple with Hexo, I almost could not believe it! 
 The recipe was as follows:
 </p>
 
@@ -279,9 +279,9 @@ The recipe was as follows:
 </ul>
 
 <p>
-Hexo even comes with full git integration, just defined your repo in <code>_config.yml</code> and run <code>hexo generate -d</code>. After tinkering around with the config file, I&apos;m really glad i didn&apos;t get 
+Hexo even comes with full git integration, just define your repo in <code>_config.yml</code> and run <code>hexo generate -d</code>. After tinkering around with the config file, I&apos;m really glad I didn&apos;t get 
 Org-page to work, even though that seemed to be the perfect fit! Changing the look and feel of your blog is also god damn simple, just clone a theme from <a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">hexo-themes</a> and add the name of your theme in the hexo/blog/<sub>config</sub>.yml, and you&apos;re good to go!
-The themes are really different from each other, and I&apos;m certain you would find a theme that would match your taste. Now this really turned into quite the sale pitch for Hexo, and i can&apos;t say that i mind.
+The themes are really different from each other, and I&apos;m certain you would find a theme that would match your taste. Now, this really turned into quite the sale pitch for Hexo, and I can&apos;t say that I mind.
 </p>
 </div>
 </div>
@@ -290,7 +290,7 @@ The themes are really different from each other, and I&apos;m certain you would 
 <h4 id="sec-1-1-2"><span class="section-number-4">1.1.2</span> hexorender-org</h4>
 <div class="outline-text-4" id="text-1-1-2">
 <p>
-Hexo supports several &apos;backends&apos; or rendering-tools. It support tools for markdown, swig, jade and even org. I found <a href="https://github.com/CodeFalling/hexo-renderer-org" target="_blank" rel="external">hexorenderer-org</a> to fufill my needs. Now all i need is an .org file, and <code>org-html-export</code> and the rendering engine of <code>hexo-render-org</code>. 
+Hexo supports several &apos;backends&apos;, or rendering-tools. It supports tools for markdown, swig, jade and even org. I found <a href="https://github.com/CodeFalling/hexo-renderer-org" target="_blank" rel="external">hexorenderer-org</a> to fulfill my needs. Now all I need is an .org file, and <code>org-html-export</code> and the rendering engine of <code>hexo-render-org</code>. 
 </p>
 </div>
 </div>
@@ -299,7 +299,7 @@ Hexo supports several &apos;backends&apos; or rendering-tools. It support tools 
 <h4 id="sec-1-1-3"><span class="section-number-4">1.1.3</span> (provide &apos;Hexo)</h4>
 <div class="outline-text-4" id="text-1-1-3">
 <p>
-Well, i just couldn&apos;t help it, i had to create a package for Hexo. It&apos;s not complete yet, but i will soon make it available on github. Now i only need to invoke(in emacs) <code>hx/create-post</code> and <code>hx/deploy</code>. Those two commands are what made this entry and pushed it to github.
+Well, I just couldn&apos;t help it, I had to create a package for Hexo. It&apos;s not complete yet, but I will make it available on github soon. Now I only need to invoke(in emacs) <code>hx/create-post</code> and <code>hx/deploy</code>. Those two commands are what made this entry and pushed it to github.
 </p>
 </div>
 </div>
@@ -324,7 +324,7 @@ Well, i just couldn&apos;t help it, i had to create a package for Hexo. It&apos;
 </div>
 </div>
 
-Last Updated 2016-03-11 Fri 20:22.<br>Render by <a href="https://github.com/CodeFalling/hexo-renderer-org" target="_blank" rel="external">hexo-renderer-org</a> with <a href="http://www.gnu.org/software/emacs/" target="_blank" rel="external">Emacs</a> 25.0.92.1 (<a href="http://orgmode.org" target="_blank" rel="external">Org</a> mode 8.2.10)
+Last Updated 2016-03-11 Fri 21:30.<br>Render by <a href="https://github.com/CodeFalling/hexo-renderer-org" target="_blank" rel="external">hexo-renderer-org</a> with <a href="http://www.gnu.org/software/emacs/" target="_blank" rel="external">Emacs</a> 25.0.92.1 (<a href="http://orgmode.org" target="_blank" rel="external">Org</a> mode 8.2.10)
 
       
     </div>
